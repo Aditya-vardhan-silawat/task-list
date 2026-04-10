@@ -4,7 +4,7 @@ import TaskForm from './components/TaskForm';
 import TaskList from './components/TaskList';
 import './styles.css';
 
-const API_URL = 'http://localhost:5001/tasks';
+const API_URL = '/tasks';
 
 function App() {
   const [tasks, setTasks] = useState([]);
